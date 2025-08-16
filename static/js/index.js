@@ -33,13 +33,13 @@ async function enviarMensaje() {
 
 function creaBurbujaUsuario() {
     let burbuja = document.createElement('p');
-    burbuja.classList = 'chat_burbuja chat_burbuja--usuario';
+    burbuja.classList = 'chat__burbuja chat__burbuja--usuario';
     return burbuja;
 }
 
 function creaBurbujaBot() {
     let burbuja = document.createElement('p');
-    burbuja.classList = 'chat_burbuja chat_burbuja--bot';
+    burbuja.classList = 'chat__burbuja chat__burbuja--bot';
     return burbuja;
 }
 
